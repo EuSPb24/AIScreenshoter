@@ -39,7 +39,7 @@
 ## Установка и запуск
 
 ### Вариант 1. Готовый установщик (для пользователей)
-1. [Скачайте](https://github.com/EuSPb24/AIScreenshoter/releases/download/v1.2.4/AIScreenshoter_Setup_1.2.4.exe) **`AIScreenshoter_Setup_1.2.4.exe`** (прямая загрузка) или выберите нужную версию на странице [Releases]((https://github.com/EuSPb24/AIScreenshoter/releases)).
+1. [Скачайте](https://github.com/EuSPb24/AIScreenshoter/releases/download/v1.2.4/AIScreenshoter_Setup_1.2.4.exe) **`AIScreenshoter_Setup_1.2.4.exe`** (прямая загрузка) или выберите нужную версию на странице [Releases](https://github.com/EuSPb24/AIScreenshoter/releases).
 2. Запустите установщик (установленный Python не требуется).
 3. Утилита появится в системном трее. Нажмите `Win + Shift + S` или `PrintScreen` для начала работы.
 
