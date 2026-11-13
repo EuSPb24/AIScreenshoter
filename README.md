@@ -22,7 +22,7 @@ AIScreenshoter — легкая фоновая утилита для Windows (10
 Автоматически определяет язык Windows при первом запуске и поддерживает добавление собственных .ini переводов в %APPDATA%\AIScreenshoter\lang\ <br>
 Установка и запуск<br>
 Вариант 1. Готовый установщик (рекомендуется)<br>
-1. Скачайте AIScreenshoter_Setup_1.2.4.exe из раздела ХХХХХХХХ.<br>
+1. [Скачайте](https://github.com/EuSPb24/AIScreenshoter/releases/download/v1.2.4/AIScreenshoter_Setup_1.2.4.exe) AIScreenshoter_Setup_1.2.4.exe (прямая загрузка установщика).
 2. Запустите установщик (не требует установленного Python).<br>
 3. Утилита появится в системном трее. Нажмите Win + Shift + S для начала работы.<br>
 
