@@ -21,10 +21,46 @@ AIScreenshoter — легкая фоновая утилита для Windows (10
 • Мультиязычность (`RU` / `EN` / `ZH`)<br>
 Автоматически определяет язык Windows при первом запуске и поддерживает добавление собственных .ini переводов в %APPDATA%\AIScreenshoter\lang\ <br>
 Установка и запуск<br>
-Вариант 1. Готовый установщик (рекомендуется)<br>
-1. [Скачайте](https://github.com/EuSPb24/AIScreenshoter/releases/download/v1.2.4/AIScreenshoter_Setup_1.2.4.exe) AIScreenshoter_Setup_1.2.4.exe (прямая загрузка установщика).
-2. Запустите установщик (не требует установленного Python).<br>
-3. Утилита появится в системном трее. Нажмите Win + Shift + S для начала работы.<br>
+## 🚀 Установка и запуск
+
+### Вариант 1. Готовый установщик (для пользователей)
+1. [Скачайте](https://github.com) **`AIScreenshoter_Setup_1.2.4.exe`** (прямая загрузка) или выберите нужную версию на странице [Releases](https://github.com).
+2. Запустите установщик (установленный Python не требуется).
+3. Утилита появится в системном трее. Нажмите `Win + Shift + S` или `PrintScreen` для начала работы.
+
+---
+
+### Вариант 2. Полная сборка `.exe` и установщика (`build.py` + `installer.iss`)
+Подходит, если вы хотите собрать автономный `AIScreenshoter.exe` и дистрибутив `AIScreenshoter_Setup_1.2.4.exe` самостоятельно.
+
+**Требования:** Windows 10/11, **Python 3.11+**, **Inno Setup 6 или 7** (для компиляции `installer.iss`).
+
+```bash
+git clone https://github.com
+cd AIScreenshoter
+pip install PySide6 pyinstaller
+python build.py
+```
+
+**Что сделает скрипт `build.py`:**
+1. Сгенерирует иконку `app_icon.ico` из векторного `assets.py`.
+2. Упакует приложение и `.ini` локализации в один файл **`dist/AIScreenshoter.exe`**.
+3. Автоматически найдет компилятор Inno Setup (`ISCC.exe`) и соберет установщик **`dist_setup/AIScreenshoter_Setup_1.2.4.exe`** на основе сценария **`installer.iss`**.
+
+*(При необходимости скрипт `installer.iss` можно открыть и скомпилировать вручную через графическую оболочку Inno Setup Compiler).*
+
+---
+
+### Вариант 3. Запуск и разработка в Visual Studio Code (VS Code)
+1. Склонируйте репозиторий и откройте папку проекта в **VS Code** (`File → Open Folder...`).
+2. Установите официальное расширение **Python** от Microsoft (если не установлено).
+3. Откройте встроенный терминал в VS Code (`Ctrl + ~`) и установите зависимость:
+   ```bash
+   pip install PySide6
+   ```
+4. Выберите файл **`main.py`** и нажмите **`F5`** (запуск с отладкой) или **`Ctrl + F5`** (быстрый запуск без отладки).
+5. Иконка утилиты сразу появится в системном трее Windows.
+
 
 
 
