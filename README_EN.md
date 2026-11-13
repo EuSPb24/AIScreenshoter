@@ -41,7 +41,7 @@
 ## Installation & Running
 
 ### Option 1. Ready-to-Use Installer (For Users)
-1. [Download]([https://github.com](https://github.com/EuSPb24/AIScreenshoter/releases/download/v1.2.4/AIScreenshoter_Setup_1.2.4.exe)) **`AIScreenshoter_Setup_1.2.4.exe`** (direct download) or pick a release on the [Releases]([https://github.com](https://github.com/EuSPb24/AIScreenshoter/releases)) page.
+1. [Download]([https://github.com](https://github.com/EuSPb24/AIScreenshoter/releases/download/v1.2.4/AIScreenshoter_Setup_1.2.4.exe])) **`AIScreenshoter_Setup_1.2.4.exe`** (direct download) or pick a release on the [Releases]([https://github.com](https://github.com/EuSPb24/AIScreenshoter/releases])) page.
 2. Run the installer (Python is not required).
 3. The utility icon will appear in your system tray. Press `Win + Shift + S` or `PrintScreen` to start.
 
