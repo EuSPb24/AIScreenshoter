@@ -103,3 +103,7 @@ python build.py
 Проект **AIScreenshoter** создан в живом симбиозе **EvGen** и **ИИ-ассистента Gemini (Google)**.  
 2026 | `v.1.2.4`
 
+<div align="center">
+  <br/>
+  <img src="logo.png" alt="AIScreenshoter Symbiosis Logo" width="110" height="110" />
+</div>
