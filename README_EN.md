@@ -100,4 +100,6 @@ python build.py
 
 ## Authors
 
-**AIScreenshoter** and its visual code were created in live symbiosis by **EvGen** and **Gemini AI Assistant (Google)** in under 24 hours (`v.1.2.4`, 2026).
+**AIScreenshoter** was created in live symbiosis by **EvGen** and **Gemini AI Assistant (Google)**.  
+2026 | `v.1.2.4`
+
