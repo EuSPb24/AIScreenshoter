@@ -100,7 +100,7 @@ python build.py
 
 ## О символе и авторах
 
-<img align="left" src="assets/logo.svg" alt="DNA of Symbiosis" width="96" height="96" />
+<img align="left" src="logo.svg" alt="DNA of Symbiosis" width="96" height="96" />
 
 > *«Любая сила сама по себе нейтральна — созидательный смысл она обретает только в руках разумного человека».*
 
