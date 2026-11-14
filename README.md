@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.svg" alt="AIScreenshoter Symbiosis Logo" width="140" height="140" />
+  <img src="logo.svg" alt="AIScreenshoter Symbiosis Logo" width="140" height="140" />
   <h1>AIScreenshoter</h1>
   <p>
     <b>Any power is neutral on its own — it finds creative meaning only in the hands of a thoughtful human.</b><br/>
