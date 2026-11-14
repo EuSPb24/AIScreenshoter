@@ -1,6 +1,11 @@
 [English](README_EN.md) | [Русский](README.md)
 
-# AIScreenshoter
+<div align="center">
+  <h1>AIScreenshoter</h1>
+  <p>
+    <i>Any power is neutral on its own — it finds creative meaning only in the hands of a thoughtful human.</i>
+  </p>
+</div>
 
 **AIScreenshoter** is a lightweight background utility for Windows (10, 11) that intercepts screenshots and helps you prepare clear visual specifications for AI models or colleagues in seconds.
 
@@ -11,18 +16,18 @@
 ## Key Features
 
 * **Instant Clipboard Interception**
-  Runs quietly in the system tray and automatically opens the annotation canvas when you press `Win + Shift + S` or `PrintScreen`. Screenshots are processed 1:1 in physical pixels without blur or offset across mixed-DPI multi-monitor setups (e.g., FullHD + 2K/4K).
+  Runs quietly in the system tray and automatically opens the annotation canvas when you press `Win + Shift + S` or `PrintScreen`. Screenshots are processed 1:1 in physical pixels without blur or offset across mixed-DPI multi-monitor setups (including FullHD + 2K/4K).
 * **Annotation Tools with Smart Badge Placement**
   * **Rectangle** — highlights a UI area and assigns a sequential focus index.
-  * **Line & Arrow** — underlines text or points to specific elements with horizontal/vertical auto-snap. The badge is placed at the base and automatically shifts in dense layouts to avoid overlapping text or arrowheads.
+  * **Line & Arrow** — underlines text and points to specific elements with horizontal/vertical auto-snap. The badge is placed at the base and automatically shifts in dense layouts to avoid overlapping text or arrowheads.
   * **Blur** — permanently obscures passwords, tokens, and personal data before sharing.
-  * **Select Entire Image** — frames the entire current layer in one click from the tool dropdown.
+  * **Select All** — frames the entire current layer in one click from the tool dropdown.
 * **Inline Editing & Visual-Only Markers**
   Click any numbered badge (`1`, `2`, `3`...) to edit its comment right next to the marker. Pressing `Enter` with an empty input leaves a visual-only marker on the image without adding an entry to the bottom footer\*.
 * **Multi-Layer Sessions (Multiple Screenshots in One Strip)**
   Pressing `Win + Shift + S` while working automatically hides the utility overlay before Windows freezes the screen and adds the new capture as the next layer (`1/2`, `2/2`...). When saved, all layers are stitched into a single vertical strip with continuous numbering.
 * **Combined Image + Text in One Click (Ready for `Ctrl + V`)**
-  Clicking **Save (OK)** automatically appends a dark footer\* with an adaptive font size listing all your comments, copies the resulting image to the clipboard, and saves three files to `Pictures\AIScreenshoter\YYYY-MM`: the clean original (`_clean`), the annotated image (`_marked`), and an `.ai` project file for later editing.
+  Clicking **OK** automatically appends a dark footer\* with an adaptive font size listing all your comments, copies the resulting image to the clipboard (for instant pasting into AI chats), and saves three files to `Pictures\AIScreenshoter\YYYY-MM`: the clean original (`_clean`), the annotated image (`_marked`), and an `.ai` project file for later editing.
 * **Native Windows Spell Checking**
   Built-in Windows spell checker underlines typos with a red wavy line based on your active keyboard layout (English, Russian, Chinese, French, Italian, etc.) and provides correction suggestions on right-click.
 * **Multi-Language Support (`RU` / `EN` / `ZH` + Custom Locales)**
@@ -69,30 +74,30 @@ python build.py
 ---
 
 ### Option 3. Running & Developing in Visual Studio Code (VS Code)
-1. Clone the repository and open the project folder in **VS Code** (`File -> Open Folder...`).
-2. Install the official **Python** extension by Microsoft.
+1. Clone the repository and open the project folder in **VS Code** (`File → Open Folder...`).
+2. Install the official **Python** extension by Microsoft (if not installed).
 3. Open the integrated terminal in VS Code (`Ctrl + ~`) and install the dependency:
    ```bash
    pip install PySide6
    ```
 4. Select **`main.py`** and press **`F5`** (run with debugging) or **`Ctrl + F5`** (run without debugging).
-5. The utility icon will appear in the Windows system tray.
+5. The utility icon will immediately appear in the Windows system tray.
 
 ---
 
-## Shortcuts & Controls
+## ⌨️ Shortcuts & Controls
 
 | Action | Control |
 | :--- | :--- |
 | Capture screenshot / add a new layer | `Win + Shift + S` or `PrintScreen` |
 | Confirm marker comment | `Enter` (new line: `Shift + Enter`) |
 | Edit existing marker text | Left-click on the numbered badge (`1`, `2`...) |
-| Switch between layers | `Prev` / `Next` buttons on toolbar or `PageUp` / `PageDown` |
-| Undo / Redo action in current layer | `Undo` / `Redo` toolbar buttons |
+| Switch between layers | `◀` / `▶` buttons in header or `PageUp` / `PageDown` |
+| Undo / Redo action in current layer | `↶` / `↷` buttons |
 | Close without saving | Double-press `ESC` (when markers are present) |
 
 ---
 
 ## Authors
 
-Created jointly by **EvGen** and **Gemini AI Assistant (Google)** in 2026 (`v.1.2.4`).
+**AIScreenshoter** and its visual code were created in live symbiosis by **EvGen** and **Gemini AI Assistant (Google)** in under 24 hours (`v.1.2.4`, 2026).
