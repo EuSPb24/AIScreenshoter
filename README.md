@@ -1,11 +1,12 @@
 <div align="center">
-  <img src="logo.svg" alt="AIScreenshoter Symbiosis Logo" width="140" height="140" />
+  <img src="https://githubusercontent.com" alt="AIScreenshoter Symbiosis Logo" width="140" height="140" />
   <h1>AIScreenshoter</h1>
   <p>
     <b>Any power is neutral on its own — it finds creative meaning only in the hands of a thoughtful human.</b><br/>
     <i>Любая сила сама по себе нейтральна — созидательный смысл она обретает только в руках разумного человека.</i>
   </p>
 </div>
+
 
 **AIScreenshoter** — легкая фоновая утилита для Windows (10, 11), которая перехватывает снимки экрана и помогает за пару секунд подготовить понятное визуальное ТЗ для нейросетей или коллег.
 
