@@ -3,7 +3,6 @@
 <div align="center">
   <h1>AIScreenshoter</h1>
   <p>
-    <b>Any power is neutral on its own — it finds creative meaning only in the hands of a thoughtful human.</b><br/>
     <i>Любая сила сама по себе нейтральна — созидательный смысл она обретает только в руках разумного человека.</i>
   </p>
 </div>
